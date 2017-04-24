@@ -2,6 +2,7 @@
  * Created by LoveJYl on 2017/1/5.
  */
 window.onload = function(){
+	var a ="nihao";
     var mySwiper = new Swiper ('.swiper-container', {
         loop: true,
         autoplay:5000,

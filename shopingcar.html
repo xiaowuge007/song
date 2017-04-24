@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" href="css/shopingcar.css"/>
+    <script src="js/lib/jquery-1.12.4.js"></script>
+    <script src="js/app/gooddetails.js"></script>
+    <script src="js/app/shopingcar.js"></script>
+</head>
+<body>
+    <div id="_enter">
+        <div id="_enter-top">
+            你尚未登录
+            <span id="_close"></span>
+        </div>
+        <div id="_enter-bot">
+            <form action="">
+                <p>用户名/已验证手机</p>
+                <input type="text"/>
+                <p>密码</p>
+                <input type="password"/>
+                <p><a href="">忘记密码?</a><a href="login.html">点击注册</a></p>
+                <button>登录</button>
+            </form>
+        </div>
+    </div>
+
+    <header id="_head">
+        <ul id="_head-left">
+            <li></li>
+            <li><a href="#">收藏果酷</a></li>
+            <li><a href="#">企业管理入口</a></li>
+        </ul>
+        <ul id="_head-right">
+            <li><a href="#">欢迎来到果酷</a></li>
+            <li><a href="#" id="_btn-enter">请登录</a></li>
+            <li><a href="login.html">免费注册</a></li>
+            <li><a href="#">我的订单</a></li>
+        </ul>
+    </header>
+    <hr/>
+    <div id="_top">
+        <div id="_top-left"><img src="images/logo1.gif" alt=""/></div>
+        <div  id="_search">
+            <input type="text" id="_sea"/>
+            <button id="btn1"></button>
+        </div>
+        <span><a href="">我的果酷</a></span>
+        <span><a href="">我的购物车</a></span>
+    </div>
+    <div id="_car-title">
+        <p>我的购物车</p>
+        <ul>
+            <li></li>
+            <li>1.我的购物车</li>
+            <li>2.填写核对订单信息</li>
+            <li>3.成功提交订单</li>
+        </ul>
+    </div>
+    <div id="_car-list">
+        <table border="0" cellspacing="0" rules="rows">
+            <tr>
+                <th width="55"><input type="checkbox" checked="checked"/></th>
+                <th width="130">全选</th>
+                <th width="260">商品信息</th>
+                <th width="180">市场价（元）</th>
+                <th width="155">单价（元）</th>
+                <th width="135">数量</th>
+                <th width="145">金额（元）</th>
+                <th width="140">操作</th>
+            </tr>
+            <tr>
+                <td width="55"><input type="checkbox" checked="checked"/></td>
+                <td width="130"><a href=""><img src="images/guoqie7.2.jpg" alt=""/></a></td>
+                <td width="260"><p>鲜果切：哈密瓜</p></td>
+                <td width="180">35.00</td>
+                <td width="155">25.00（元）</td>
+                <td width="135"><span><i class="_subtract">-</i><input class="_num" type="text"value="8"/><i class="_add">+</i></span></td>
+                <td width="145">200.00</td>
+                <td width="140"><em>删除</em></td>
+            </tr>
+            <tr>
+                <td width="55"><input type="checkbox" checked="checked"/></td>
+                <td width="130"><a href=""><img src="images/guoqie0.1.jpg" alt=""/></a></td>
+                <td width="260"><p>一分切盒：白心火龙果</p></td>
+                <td width="180">10.00</td>
+                <td width="155">6.00（元）</td>
+                <td width="135"><span><i class="_subtract">-</i><input class="_num" type="text"value="2"/><i class="_add">+</i></span></td>
+                <td width="145">12.00</td>
+                <td width="140"><em>删除</em></td>
+            </tr>
+            <tr>
+                <td width="55"><input type="checkbox" checked="checked"/></td>
+                <td width="130"><a href=""><img src="images/guoqie8.1.jpg" alt=""/></a></td>
+                <td width="260"><p>三分切盒：越南白心火龙果+菲律宾凤梨+千禧圣女果</p></td>
+                <td width="180">24.00</td>
+                <td width="155">12.00（元）</td>
+                <td width="135"><span><i class="_subtract">-</i><input class="_num" type="text"value="2"/><i class="_add">+</i></span></td>
+                <td width="145">24.00</td>
+                <td width="140"><em>删除</em></td>
+            </tr>
+        </table>
+    </div>
+    <div class="_car-bottom">
+        <div id="_car-bot">
+            <ul>
+                <li><input type="checkbox" checked="checked"/></li>
+                <li>全选</li>
+                <li><span>删除</span></li>
+                <li>已选商品 <span>2</span>件</li>
+                <li>总计（不含运费）</li>
+                <li>￥236.00</li>
+                <li>结算</li>
+            </ul>
+        </div>
+    </div>
+    <footer id="_foot">
+        <div id="_foot-main">
+            <div id="_foot-top">
+                <img src="images/footer_logo.png" alt=""/>
+                <ul>
+                    <li><a href="">关于果酷</a></li>
+                    <li><a href="">我们是谁</a></li>
+                    <li><a href="">媒体声音</a></li>
+                    <li><a href="">联系我们</a></li>
+                    <li><a href="">加入我们</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">商务合作</a></li>
+                    <li><a href="">商家合作</a></li>
+                    <li><a href="">试吃报名</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">服务与声明</a></li>
+                    <li><a href="">声明</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">有橙下载</a></li>
+                    <li><a href="">ios版下载</a></li>
+                    <li><a href="">Android版下载</a></li>
+                </ul>
+            </div>
+            <div id="_foot-bottom">
+                <h3>关注我们</h3>
+                <div>
+                    <a href=""> <img src="images/sina.png" alt=""/></a>
+                    <a href=""><img src="images/weixin.png" alt=""/></a>
+                </div>
+            </div>
+            <p>CopyRight 2010-2017, 果酷网 版权所有 蜀ICP备10033495号 <a href=""><img src="images/pic.gif" alt=""/></a></p>
+        </div>
+    </footer>
+</body>
+</html>

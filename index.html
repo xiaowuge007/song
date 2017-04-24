@@ -1,0 +1,3359 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" href="css/swiper-3.4.1.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="js/lib/jquery-1.12.4.js"></script>
+    <script src="js/lib/swiper-3.4.1.jquery.min.js"></script>
+    <script src="js/app/index.js"></script>
+    <script src="js/app/common.js"></script>
+</head>
+<body>
+<div id="_enter">
+    <div id="_enter-top">
+        你尚未登录
+        <span id="_close"></span>
+    </div>
+    <div id="_enter-bot">
+        <form action="">
+            <p>用户名/已验证手机</p>
+            <input type="text"/>
+            <p>密码</p>
+            <input type="password"/>
+            <p><a href="">忘记密码?</a><a href="login.html">点击注册</a></p>
+            <button>登录</button>
+        </form>
+    </div>
+</div>
+
+<header id="_head">
+        <ul id="_head-left">
+            <li></li>
+            <li><a href="#">收藏果酷</a></li>
+            <li><a href="#">企业管理入口</a></li>
+        </ul>
+        <ul id="_head-right">
+            <li><a href="#">欢迎来到果酷</a></li>
+            <li><a href="#" id="_btn-enter">请登录</a></li>
+            <li><a href="login.html">免费注册</a></li>
+            <li><a href="#">我的订单</a></li>
+        </ul>
+    </header>
+    <hr/>
+    <div id="_top">
+        <div id="_top-left"><img src="images/logo1.gif" alt=""/></div>
+        <div  id="_search">
+            <input type="text" id="_sea"/>
+            <button id="btn1"></button>
+        </div>
+        <span><a href="">我的果酷</a></span>
+        <span><a href="">我的购物车</a></span>
+    </div>
+    <nav id="_nav">
+        <div id="_nav-main">
+            <ul id="_nav-stair">
+                <li class="_current"><a href="">全部商品分类</a></li>
+                <li><a href="">闪购促销</a></li>
+                <li><a href="">最新活动</a></li>
+            </ul>
+
+            <div id="_nav-box">
+                <ul id="_nav-second">
+                    <li><em></em><a href="#">专利果切</a><span>&gt;</span>
+                        <div class="_nav-third">
+                            <ul>
+                                <li><a href="">Mini果切</a></li>
+                                <li><a href="">二分果切</a></li>
+                                <li><a href="">三分果切</a></li>
+                                <li><a href="">彩虹果杯</a></li>
+                                <li><a href="">创意果切</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="">六分果盘</a></li>
+                                <li><a href="">鲜水果花</a></li>
+                                <li><a href="">家庭装</a></li>
+                                <li><a href="">便利装</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><em></em><a href="#">冷榨果饮</a><span>&gt;</span>
+                        <div class="_nav-third">
+                            <ul>
+                                <li><a href="">冷榨果饮</a></li>
+                                <li><a href="">排毒果蔬汁</a></li>
+                                <li><a href="">极致鲜榨汁</a></li>
+                                <li><a href="">特调果汁/昔</a></li>
+                                <li><a href="">果茶饮(热)</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="">排毒水</a></li>
+                                <li><a href="">代餐果昔</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><em></em><a href="#">进口水果</a><span>&gt;</span>
+                        <div class="_nav-third">
+                            <ul>
+                                <li><a href="">奇异果</a></li>
+                                <li><a href="">车厘子</a></li>
+                                <li><a href="">冷冻榴莲</a></li>
+                                <li><a href="">牛油果</a></li>
+                                <li><a href="">热带水果</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="">营养便捷装</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><em></em><a href="#">国产水果</a><span>&gt;</span>
+                        <div class="_nav-third">
+                            <ul>
+                                <li><a href="">苹果</a></li>
+                                <li><a href="">柑橘橙柚</a></li>
+                                <li><a href="">瓜/甜瓜</a></li>
+                                <li><a href="">时令水果</a></li>
+                                <li><a href="">营养便捷装</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><em></em><a href="#">酸奶零食</a><span>&gt;</span>
+                        <div class="_nav-third">
+                            <ul>
+                                <li><a href="">爱切手造酸奶</a></li>
+                                <li><a href="">早餐系列</a></li>
+                                <li><a href="">精美糕点</a></li>
+                                <li><a href="">包装零食</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><em></em><a href="#">礼箱卡券</a><span>&gt;</span>
+                        <div class="_nav-third">
+                            <ul>
+                                <li><a href="">酷卡</a></li>
+                                <li><a href="">兑换券</a></li>
+                                <li><a href="">礼箱</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+                <div id="_board"></div>
+            </div>
+        </div>
+    </nav>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href=""><img height="400" src="images/banner.jpg" alt=""/></a></div>
+            <div class="swiper-slide"><a href=""><img src="images/banner1.jpg" alt=""/></a></div>
+            <div class="swiper-slide"><a href=""><img src="images/banner2.jpg" alt=""/></a></div>
+            <div class="swiper-slide"><a href=""><img src="images/banner3.jpg" alt=""/></a></div>
+            <div class="swiper-slide"><a href=""><img src="images/banner4.jpg" alt=""/></a></div>
+            <div class="swiper-slide"><a href=""><img src="images/banner5.jpg" alt=""/></a></div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </div>
+    <section class="_goodlist" id="_guoqie">
+        <nav class="_good-nav">
+            <h1><span></span><a href="#">》&nbsp 专利果切</a></h1>
+            <ul id="_guoqie-nav">
+                <li><a href="">专利果切</a></li>
+                <li><a href="">Mini果切</a>|</li>
+                <li><a href="">二分果切</a>|</li>
+                <li><a href="">三分果切</a>|</li>
+                <li><a href="">彩虹果杯</a>|</li>
+                <li><a href="">创意果切</a>|</li>
+                <li><a href="">六分果盘</a>|</li>
+                <li><a href="">鲜水果花</a>|</li>
+                <li><a href="">家庭装</a>|</li>
+                <li><a href="">便利装</a>|</li>
+            </ul>
+            <span><a href="">更多>></a></span>
+        </nav>
+        <div class="_good-pic">
+            <div class="_good-left">
+                <h2>热销排行</h2>
+                <div id="_guoqie-show">
+                    <ol class="_current-show">
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥15</p>
+                                <p>￥30</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie2.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie2.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie2.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie2.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie4.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie4.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie4.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie4.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie5.1.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie5.2.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie6.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie6.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie7.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie7.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.3.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.4.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.1.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.2.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.3.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.4.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.5.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="_good-adv">
+                <img src="images/gq.jpg" alt=""/>
+            </div>
+            <div id="_guoqie-details">
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.1.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥10</em></p>
+                        <p><a href="">一分切盒：白心火龙果</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.2.jpg" alt=""/></a>
+                        <p><span>￥18</span><em>￥36</em></p>
+                        <p><a href="">三分切盒：越南红心火龙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.3.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥15</em></p>
+                        <p><a href="">一分切盒：国产红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.4.jpg" alt=""/></a>
+                        <p><span>￥18</span><em>￥36</em></p>
+                        <p><a href="">三分切盒：意大利绿奇异</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.5.jpg" alt=""/></a>
+                        <p><span>￥7.5</span><em>￥12</em></p>
+                        <p><a href="">二分切盒 ：赣南橙+哈密瓜</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.6.jpg" alt=""/></a>
+                        <p><span>￥18</span><em>￥36</em></p>
+                        <p><a href="">三分切盒：意大利绿奇异果</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.7.jpg" alt=""/></a>
+                        <p><span>￥99</span><em>￥199</em></p>
+                        <p><a href="">乐享大果盘</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.8.png" alt=""/></a>
+                        <p><span>￥7.5</span><em>￥12</em></p>
+                        <p><a href="">二分切盒 ：哈密瓜+千禧</a></p>
+                    </aside>
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.3.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.4.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.5.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.6.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.7.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:龙眼/桂圆</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.8.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:无籽西瓜</a></p>
+                    </aside>
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.3.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.4.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.5.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.6.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.7.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:龙眼/桂圆</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.8.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:无籽西瓜</a></p>
+                    </aside>
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.3.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.4.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.5.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.6.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.7.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:龙眼/桂圆</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.8.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:无籽西瓜</a></p>
+                    </aside>
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie4.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie4.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie4.3.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie4.4.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie5.1.png" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie5.2.png" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie6.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie6.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie7.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie7.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.3.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.4.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.5.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.6.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.1.png" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.2.png" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.3.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.4.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.5.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.6.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="_goodlist" id="_guoyin">
+        <nav class="_good-nav">
+            <h1><span></span><a href="#">》&nbsp 冷榨果饮</a></h1>
+            <ul id="_guoyin-nav">
+                <li><a href="">冷榨果饮</a></li>
+                <li><a href="">排毒果蔬汁</a>|</li>
+                <li><a href="">极致鲜榨汁</a>|</li>
+                <li><a href="">特调果汁/昔</a>|</li>
+                <li><a href="">果饮茶(热)</a>|</li>
+                <li><a href="">排毒水</a>|</li>
+                <li><a href="">代餐果昔</a>|</li>
+            </ul>
+            <span><a href="">更多>></a></span>
+        </nav>
+        <div class="_good-pic">
+            <div class="_good-left">
+                <h2>热销排行</h2>
+                <div id="_guoyin-show">
+                    <ol class="_current-show">
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥15</p>
+                                <p>￥30</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie2.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie2.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie2.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie2.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie4.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie4.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie4.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie4.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie5.1.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie5.2.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie6.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie6.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie7.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie7.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.3.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.4.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.1.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.2.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.3.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.4.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.5.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="_good-adv">
+                <img src="images/gy.jpg" alt=""/>
+            </div>
+            <div id="_guoyin-details">
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.1.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥10</em></p>
+                        <p><a href="">一分切盒：白心火龙果</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.2.jpg" alt=""/></a>
+                        <p><span>￥18</span><em>￥36</em></p>
+                        <p><a href="">三分切盒：越南红心火龙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.3.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥15</em></p>
+                        <p><a href="">一分切盒：国产红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.4.jpg" alt=""/></a>
+                        <p><span>￥18</span><em>￥36</em></p>
+                        <p><a href="">三分切盒：意大利绿奇异</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.5.jpg" alt=""/></a>
+                        <p><span>￥7.5</span><em>￥12</em></p>
+                        <p><a href="">二分切盒 ：赣南橙+哈密瓜</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.6.jpg" alt=""/></a>
+                        <p><span>￥18</span><em>￥36</em></p>
+                        <p><a href="">三分切盒：意大利绿奇异果</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.7.jpg" alt=""/></a>
+                        <p><span>￥99</span><em>￥199</em></p>
+                        <p><a href="">乐享大果盘</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.8.png" alt=""/></a>
+                        <p><span>￥7.5</span><em>￥12</em></p>
+                        <p><a href="">二分切盒 ：哈密瓜+千禧</a></p>
+                    </aside>
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.3.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.4.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.5.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.6.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.7.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:龙眼/桂圆</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.8.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:无籽西瓜</a></p>
+                    </aside>
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.3.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.4.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.5.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.6.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.7.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:龙眼/桂圆</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.8.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:无籽西瓜</a></p>
+                    </aside>
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.3.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.4.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.5.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.6.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.7.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:龙眼/桂圆</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.8.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:无籽西瓜</a></p>
+                    </aside>
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie4.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie4.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie4.3.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie4.4.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie5.1.png" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie5.2.png" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie6.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie6.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie7.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie7.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.3.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.4.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.5.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.6.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.1.png" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.2.png" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.3.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.4.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.5.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.6.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="_goodlist" id="_jinkou">
+        <nav class="_good-nav">
+            <h1><span></span><a href="#">》&nbsp 进口水果</a></h1>
+            <ul id="_jinkou-nav">
+                <li><a href="">进口水果</a></li>
+                <li><a href="">奇异果</a>|</li>
+                <li><a href="">车厘子</a>|</li>
+                <li><a href="">冷冻榴莲</a>|</li>
+                <li><a href="">牛油果</a>|</li>
+                <li><a href="">热带水果</a>|</li>
+                <li><a href="">营养便捷装</a>|</li>
+            </ul>
+            <span><a href="">更多>></a></span>
+        </nav>
+        <div class="_good-pic">
+            <div class="_good-left">
+                <h2>热销排行</h2>
+                <div id="_jinkou-show">
+                    <ol class="_current-show">
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥15</p>
+                                <p>￥30</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie2.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie2.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie2.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie2.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie4.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie4.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie4.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie4.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie5.1.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie5.2.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie6.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie6.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie7.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie7.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.3.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.4.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.1.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.2.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.3.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.4.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.5.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="_good-adv">
+                <img src="images/jk.jpg" alt=""/>
+            </div>
+            <div id="_jinkou-details">
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.1.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥10</em></p>
+                        <p><a href="">一分切盒：白心火龙果</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.2.jpg" alt=""/></a>
+                        <p><span>￥18</span><em>￥36</em></p>
+                        <p><a href="">三分切盒：越南红心火龙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.3.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥15</em></p>
+                        <p><a href="">一分切盒：国产红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.4.jpg" alt=""/></a>
+                        <p><span>￥18</span><em>￥36</em></p>
+                        <p><a href="">三分切盒：意大利绿奇异</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.5.jpg" alt=""/></a>
+                        <p><span>￥7.5</span><em>￥12</em></p>
+                        <p><a href="">二分切盒 ：赣南橙+哈密瓜</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.6.jpg" alt=""/></a>
+                        <p><span>￥18</span><em>￥36</em></p>
+                        <p><a href="">三分切盒：意大利绿奇异果</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.7.jpg" alt=""/></a>
+                        <p><span>￥99</span><em>￥199</em></p>
+                        <p><a href="">乐享大果盘</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.8.png" alt=""/></a>
+                        <p><span>￥7.5</span><em>￥12</em></p>
+                        <p><a href="">二分切盒 ：哈密瓜+千禧</a></p>
+                    </aside>
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.3.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.4.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.5.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.6.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.7.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:龙眼/桂圆</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.8.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:无籽西瓜</a></p>
+                    </aside>
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.3.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.4.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.5.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.6.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.7.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:龙眼/桂圆</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.8.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:无籽西瓜</a></p>
+                    </aside>
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.3.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.4.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.5.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.6.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.7.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:龙眼/桂圆</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.8.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:无籽西瓜</a></p>
+                    </aside>
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie4.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie4.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie4.3.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie4.4.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie5.1.png" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie5.2.png" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie6.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie6.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie7.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie7.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.3.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.4.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.5.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.6.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.1.png" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.2.png" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.3.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.4.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.5.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.6.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="_goodlist" id="_guochan">
+        <nav class="_good-nav">
+            <h1><span></span><a href="#">》&nbsp 国产水果</a></h1>
+            <ul id="_guochan-nav">
+                <li><a href="">国产水果</a></li>
+                <li><a href="">苹果</a>|</li>
+                <li><a href="">柑橘橙柚</a>|</li>
+                <li><a href="">瓜/甜瓜</a>|</li>
+                <li><a href="">时令水果</a>|</li>
+                <li><a href="">营养便捷装</a>|</li>
+            </ul>
+            <span><a href="">更多>></a></span>
+        </nav>
+        <div class="_good-pic">
+            <div class="_good-left">
+                <h2>热销排行</h2>
+                <div id="_guochan-show">
+                    <ol class="_current-show">
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie0.0.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥15</p>
+                                <p>￥30</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie1.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie2.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie2.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie2.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie2.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie3.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie4.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie4.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie4.3.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie4.4.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie5.1.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie5.2.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie6.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie6.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie7.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie7.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.1.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.2.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.3.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.4.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie8.5.jpg" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">乐享大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.1.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥10</p>
+                                <p>￥15</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：哈密瓜+千禧圣女果</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.2.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥25</p>
+                                <p>￥35</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">一分切盒：奇士橙</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.3.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥6</p>
+                                <p>￥9</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">奢华大果盘</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.4.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥5</p>
+                                <p>￥7.5</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="_good-show-top">
+                                <a href="">二分切盒 ：西瓜+菲律宾凤梨</a>
+                            </div>
+                            <div class="_good-show-bot">
+                                <a href=""><img src="images/guoqie9.5.png" alt=""/></a>
+                                <p><a href="">彩虹果杯</a></p>
+                                <p>￥9</p>
+                                <p>￥12</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="_good-adv">
+                <img src="images/gc.jpg" alt=""/>
+            </div>
+            <div id="_guochan-details">
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.1.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥10</em></p>
+                        <p><a href="">一分切盒：白心火龙果</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.2.jpg" alt=""/></a>
+                        <p><span>￥18</span><em>￥36</em></p>
+                        <p><a href="">三分切盒：越南红心火龙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.3.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥15</em></p>
+                        <p><a href="">一分切盒：国产红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.4.jpg" alt=""/></a>
+                        <p><span>￥18</span><em>￥36</em></p>
+                        <p><a href="">三分切盒：意大利绿奇异</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.5.jpg" alt=""/></a>
+                        <p><span>￥7.5</span><em>￥12</em></p>
+                        <p><a href="">二分切盒 ：赣南橙+哈密瓜</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.6.jpg" alt=""/></a>
+                        <p><span>￥18</span><em>￥36</em></p>
+                        <p><a href="">三分切盒：意大利绿奇异果</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.7.jpg" alt=""/></a>
+                        <p><span>￥99</span><em>￥199</em></p>
+                        <p><a href="">乐享大果盘</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie0.8.png" alt=""/></a>
+                        <p><span>￥7.5</span><em>￥12</em></p>
+                        <p><a href="">二分切盒 ：哈密瓜+千禧</a></p>
+                    </aside>
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.3.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.4.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.5.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.6.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.7.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:龙眼/桂圆</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie1.8.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:无籽西瓜</a></p>
+                    </aside>
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.3.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.4.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.5.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.6.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.7.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:龙眼/桂圆</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie2.8.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:无籽西瓜</a></p>
+                    </aside>
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.3.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.4.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.5.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.6.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.7.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:龙眼/桂圆</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie3.8.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:无籽西瓜</a></p>
+                    </aside>
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie4.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie4.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie4.3.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie4.4.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie5.1.png" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie5.2.png" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie6.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie6.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie7.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie7.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.1.jpg" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.2.jpg" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.3.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.4.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.5.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie8.6.jpg" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+
+                </div>
+                <div class="_good-right">
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.1.png" alt=""/></a>
+                        <p><span>￥8</span><em>￥12</em></p>
+                        <p><a href="">一分切盒:进口红提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.2.png" alt=""/></a>
+                        <p><span>￥6</span><em>￥9</em></p>
+                        <p><a href="">一分切盒:国产青提</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.3.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:菠萝</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.4.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:夏橙/伦晚橙</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.5.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:皇冠梨</a></p>
+                    </aside>
+                    <aside class="_good-details">
+                        <a href=""><img src="images/guoqie9.6.png" alt=""/></a>
+                        <p><span>￥5</span><em>￥7.5</em></p>
+                        <p><a href="">一分切盒:西柚</a></p>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="_foot">
+        <div id="_foot-main">
+            <div id="_foot-top">
+                <img src="images/footer_logo.png" alt=""/>
+                <ul>
+                    <li><a href="">关于果酷</a></li>
+                    <li><a href="">我们是谁</a></li>
+                    <li><a href="">媒体声音</a></li>
+                    <li><a href="">联系我们</a></li>
+                    <li><a href="">加入我们</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">商务合作</a></li>
+                    <li><a href="">商家合作</a></li>
+                    <li><a href="">试吃报名</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">服务与声明</a></li>
+                    <li><a href="">声明</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">有橙下载</a></li>
+                    <li><a href="">ios版下载</a></li>
+                    <li><a href="">Android版下载</a></li>
+                </ul>
+            </div>
+            <div id="_foot-bottom">
+                <h3>关注我们</h3>
+                <div>
+                    <a href=""> <img src="images/sina.png" alt=""/></a>
+                    <a href=""><img src="images/weixin.png" alt=""/></a>
+                </div>
+            </div>
+            <p>CopyRight 2010-2017, 果酷网 版权所有 蜀ICP备10033495号 <a href=""><img src="images/pic.gif" alt=""/></a></p>
+        </div>
+    </footer>
+    <div id="_bot">
+        <div id="_bottom">
+            <div><img src="images/daohang.png" alt=""/></div>
+            <div>
+                <a href=""><img src="images/de.png" alt=""/></a>
+                <a href=""><img src="images/zhu.png" alt=""/></a>
+            </div>
+            <div>
+                <p>第三方登录</p>
+                <a href=""><img src="images/ww.png" alt=""/></a>
+                <a href="login.html"><img src="images/qq.png" alt=""/></a>
+            </div>
+        </div>
+        <div id="_bot-right">
+            <span id="_bot-close"><img src="images/gu.png" alt=""/></span>
+        </div>
+    </div>
+</body>
+</html>
